@@ -1,8 +1,23 @@
+/*<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900*/
+
+/*goggle fonts"*/
+.inter-font {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.macondo-regular {
+  font-family: "Macondo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+  font-family: "Inter", serif;
+}
+
+H1 {
+  font-family: "Macondo", serif;;
+}
