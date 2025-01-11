@@ -63,6 +63,44 @@ h2 {
  background-color: transparent;
  }
 
+ #services .card {
+  margin-bottom: 1.5rem;
+ }
+
+ /* Media query */
+
+ /* Medium devices (tablets, 750px and up) */
+ @media screen and (min-width: 768px) {
+   /* make all service cards the same height for consistency */
+   #services .card-body {
+    min-height: 191px;
+   }
+ }
+
+  /* Medium devices (tablets, 992px and up) */
+  @media screen and (min-width: 992px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+     min-height: auto;
+    }
+  }
+
+    /* Medium devices (tablets, 1200px and up) */
+    @media screen and (min-width: 1200px) {
+      /* make all service cards the same height for consistency */
+      #services .card-body {
+       min-height: 220px
+      }
+    }
+        /* Medium devices (tablets, 1400px and up) */
+        @media screen and (min-width: 1400px) {
+          /* make all service cards the same height for consistency */
+          #services .card-body {
+           min-height: 195px
+          }
+        }
+
+
 /*grid visualisation CSS for testing 
   .container, 
   .row {
