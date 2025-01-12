@@ -64,8 +64,30 @@ h2 {
  }
 
  #services .card {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
  }
+
+  /* New games */
+  #new-games .card-footer {
+    background-color: transparent;
+    border: none;
+    }
+   
+    #new-games .card {
+     margin-bottom: 1.5rem; 
+     border: none;
+    }
+
+  /* Favorite games */
+  #favorite-games .card-footer {
+    background-color: transparent;
+    border: none;
+    }
+   
+    #favorite-games .card {
+     margin-bottom: 1.5rem;
+     border: none;
+    }
 
  /* Media query */
 
