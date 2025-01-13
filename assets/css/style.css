@@ -120,6 +120,10 @@ padding-bottom: 3rem;
   color: var(--secondary-color);
 }
 
+#contact .table-dark *{
+  background-color: transparent;
+}
+
  /* Media query */
 
  /* Medium devices (tablets, 750px and up) */
