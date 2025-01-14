@@ -67,6 +67,17 @@ h2 {
   color: white;
 }
 
+.banner {
+  background-color: var(--highlight-color);
+  color: white;
+  margin-bottom: 2rem;
+
+}
+.banner, 
+.banner * {
+  border-radius: 0;
+}
+
 /*Navbar*/
 #navbar {
   background-color: var(--primary-color);
